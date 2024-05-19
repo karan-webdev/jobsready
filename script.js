@@ -14,10 +14,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function adjustCoverOpacity() {
     if (window.innerWidth > 600) {
-      cover.style.opacity = '0';
+      cover.style.display = 'none';
     } else {
       // Restore cover opacity to its state before above 600px script set it
-      cover.style.opacity = ''; // Empty string resets to default
+      cover.style.display = 'block'
       
     }
   }
