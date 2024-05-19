@@ -2,6 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 
+* {
+    user-select: none;
+}
+
+*:focus,
+*:active {
+    outline: none;
+}
+
+
 body {
     padding: 0;
     margin: 0;
