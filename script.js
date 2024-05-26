@@ -66,3 +66,14 @@ document.addEventListener('DOMContentLoaded', function() {
     barThree.style.transform += ' translateY(0)'; // Resetting translateY for barThree
   });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  AOS.init({
+      once: true, // Animation will only happen once - while scrolling down
+      duration: 600, // Duration of animation in milliseconds // Delay before the animation starts in milliseconds
+      easing: 'ease-in-out',
+      offset: 100 // Easing function for the animation
+   });
+
+   
+  });
