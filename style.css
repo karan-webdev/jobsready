@@ -11,6 +11,11 @@
     outline: none;
 }
 
+svg {
+    user-select: none;
+    pointer-events: none;
+}
+
 
 body {
     padding: 0;
