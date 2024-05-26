@@ -16,6 +16,12 @@ svg, img {
     pointer-events: none;
 }
 
+img {
+    user-select: none;
+    -webkit-user-select: none; 
+    -webkit-tap-highlight-color: transparent; 
+}
+
 
 body {
     padding: 0;
