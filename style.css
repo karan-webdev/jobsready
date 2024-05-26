@@ -5,11 +5,18 @@
 * {
     user-select: none;
 }
+* {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none; 
+}
+
 
 *:focus,
 *:active {
     outline: none;
 }
+
 
 svg, img {
     user-select: none;
