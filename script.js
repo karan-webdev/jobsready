@@ -75,5 +75,11 @@ document.addEventListener('DOMContentLoaded', function() {
       offset: 100 // Easing function for the animation
    });
 
+
+
    
   });
+
+
+
+ 
